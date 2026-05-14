@@ -28,7 +28,10 @@
 }
 .team-list-item {
     background-color: #fff;
-    border-radius: 0 0 4px 4px
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-list-title {
     font-weight: 500;
@@ -46,4 +49,22 @@
     text-align: center;
     color: #434455;
 }
-
+.socials-link {
+    display: flex;
+    background-color: #4d5ae5;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+.team-socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+}
+.icon-team {
+    fill: #fff;
+}
