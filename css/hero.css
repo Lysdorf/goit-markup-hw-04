@@ -9,13 +9,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-size: 1440px 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .hero-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    text-align: center;
     gap: 48px;
 }
 .hero-button {
@@ -26,19 +28,21 @@
     gap: 0px;
     border-radius: 4px;
     border: none;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 16px 32px;  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background: #404bbf;
+    background-color: #404bbf;
     cursor: pointer;
 }
 

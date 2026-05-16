@@ -57,6 +57,11 @@
     border-radius: 40px;
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socials-link:hover,
+.socials-link:focus {
+    background-color: #404bbf;
 }
 .team-socials {
     display: flex;
@@ -66,5 +71,5 @@
     gap: 24px;
 }
 .icon-team {
-    fill: #fff;
+    fill: #f4f4fd;
 }
